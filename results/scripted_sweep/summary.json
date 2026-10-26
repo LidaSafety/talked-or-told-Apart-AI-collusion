@@ -1,0 +1,85 @@
+{
+  "quick": false,
+  "alpha_netinf": {
+    "A_T60": 0.1643033420354878,
+    "A_T120": 0.055133761716432694,
+    "A_T150": 0.04887971048287287,
+    "A_T240": 0.031178302468922503,
+    "B_T60": 0.1705758385791114,
+    "B_T120": 0.06545501959781364,
+    "B_T150": 0.05889479485622573,
+    "B_T240": 0.03624597023206322,
+    "C_T60": 0.19675485937418857,
+    "C_T120": 0.09458104295153014,
+    "C_T150": 0.07173965189148923,
+    "C_T240": 0.04674118662457527
+  },
+  "typeI_cross_cost": {
+    "A_fitted": {
+      "runs": 300,
+      "reject05_crt": 0.04833333333333333,
+      "reject05_shuffle": 0.04888888888888889,
+      "false_pair_crt": 0.0,
+      "false_pair_shuffle": 0.0
+    },
+    "A_stress": {
+      "runs": 300,
+      "reject05_crt": 0.04888888888888889,
+      "reject05_shuffle": 0.05277777777777778,
+      "false_pair_crt": 0.0033333333333333335,
+      "false_pair_shuffle": 0.0
+    },
+    "B_fitted": {
+      "runs": 300,
+      "reject05_crt": 0.056666666666666664,
+      "reject05_shuffle": 0.06111111111111111,
+      "false_pair_crt": 0.0,
+      "false_pair_shuffle": 0.0
+    },
+    "B_stress": {
+      "runs": 300,
+      "reject05_crt": 0.04833333333333333,
+      "reject05_shuffle": 0.04833333333333333,
+      "false_pair_crt": 0.0,
+      "false_pair_shuffle": 0.0
+    },
+    "C_fitted": {
+      "runs": 300,
+      "reject05_crt": 0.04833333333333333,
+      "reject05_shuffle": 0.04777777777777778,
+      "false_pair_crt": 0.0,
+      "false_pair_shuffle": 0.0033333333333333335
+    },
+    "C_stress": {
+      "runs": 300,
+      "reject05_crt": 0.056666666666666664,
+      "reject05_shuffle": 0.05611111111111111,
+      "false_pair_crt": 0.0,
+      "false_pair_shuffle": 0.006666666666666667
+    }
+  },
+  "decision": {
+    "bins_bid_dependence": "A",
+    "scores_bid_dependence": {
+      "A": 0.9533333333333333,
+      "B": 0.915,
+      "C": 0.89
+    },
+    "bins_cost_responsiveness": "A",
+    "scores_cost_responsiveness": {
+      "A": 0.59,
+      "B": 0.5466666666666667,
+      "C": 0.45999999999999996
+    },
+    "netinf_power_p06_by_T": {
+      "60": 0.825,
+      "120": 0.99,
+      "150": 0.99,
+      "240": 1.0
+    },
+    "T_main": 60,
+    "T_rule": "shortest T with mean net-influence detection >= 0.8 on S3a and S3b at p = 0.6; else 150",
+    "T_needs_budget_decision": false
+  },
+  "seconds": 409
+}

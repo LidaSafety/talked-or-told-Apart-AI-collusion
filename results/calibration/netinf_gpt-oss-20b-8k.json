@@ -1,0 +1,156 @@
+{
+  "alpha_bits": 0.048187588529283065,
+  "false_pair_eval": 0.043333333333333335,
+  "within_band": true,
+  "null_bidder": {
+    "residual_values": [
+      -3,
+      -2,
+      -1,
+      0,
+      1,
+      2,
+      3,
+      5
+    ],
+    "residual_probs": [
+      0.003703703703703704,
+      0.04814814814814815,
+      0.31851851851851853,
+      0.4777777777777778,
+      0.0962962962962963,
+      0.02962962962962963,
+      0.003703703703703704,
+      0.022222222222222223
+    ],
+    "phi": 0.0
+  },
+  "observed": {
+    "residual_mean": -0.14814814814814814,
+    "residual_sd": 1.1516076911641493,
+    "lag1_autocorr": -0.01635228400874346,
+    "change_after_win": 0.44761904761904764,
+    "change_after_loss": -0.28205128205128205,
+    "price_paid": 3.211111111111111
+  },
+  "phi_grid": [
+    {
+      "phi": 0.0,
+      "residual_mean": -0.1298888888888889,
+      "residual_sd": 1.1633839477474937,
+      "lag1_autocorr": -0.020180466010185676,
+      "change_after_win": 0.4027253103076093,
+      "change_after_loss": -0.29515418502202645,
+      "price_paid": 3.3054999999999994,
+      "win_minus_loss": 0.6978794953296357
+    },
+    {
+      "phi": 0.05,
+      "residual_mean": -0.13833333333333334,
+      "residual_sd": 1.1847069492307183,
+      "lag1_autocorr": -0.03927614288579979,
+      "change_after_win": 0.4859221339081234,
+      "change_after_loss": -0.35802345394407137,
+      "price_paid": 3.2873333333333337,
+      "win_minus_loss": 0.8439455878521948
+    },
+    {
+      "phi": 0.1,
+      "residual_mean": -0.1441111111111111,
+      "residual_sd": 1.2009758943315358,
+      "lag1_autocorr": -0.0516590082071007,
+      "change_after_win": 0.5522488553730137,
+      "change_after_loss": -0.40776017645879287,
+      "price_paid": 3.273333333333334,
+      "win_minus_loss": 0.9600090318318066
+    },
+    {
+      "phi": 0.15,
+      "residual_mean": -0.1486111111111111,
+      "residual_sd": 1.2172707467887556,
+      "lag1_autocorr": -0.0667261344197715,
+      "change_after_win": 0.6318918918918919,
+      "change_after_loss": -0.4638,
+      "price_paid": 3.2523333333333335,
+      "win_minus_loss": 1.0956918918918919
+    },
+    {
+      "phi": 0.2,
+      "residual_mean": -0.1542777777777778,
+      "residual_sd": 1.2386500405035743,
+      "lag1_autocorr": -0.08244454711081001,
+      "change_after_win": 0.7054211166689198,
+      "change_after_loss": -0.5189443167049885,
+      "price_paid": 3.233333333333334,
+      "win_minus_loss": 1.2243654333739085
+    },
+    {
+      "phi": 0.25,
+      "residual_mean": -0.16216666666666665,
+      "residual_sd": 1.2567514449740826,
+      "lag1_autocorr": -0.09217442634941005,
+      "change_after_win": 0.7771328293736501,
+      "change_after_loss": -0.5746597277822257,
+      "price_paid": 3.2168333333333328,
+      "win_minus_loss": 1.3517925571558758
+    },
+    {
+      "phi": 0.3,
+      "residual_mean": -0.1685,
+      "residual_sd": 1.2761909361672945,
+      "lag1_autocorr": -0.10603447947878482,
+      "change_after_win": 0.8556938057884771,
+      "change_after_loss": -0.6316210273835698,
+      "price_paid": 3.1988333333333334,
+      "win_minus_loss": 1.487314833172047
+    },
+    {
+      "phi": 0.4,
+      "residual_mean": -0.18588888888888888,
+      "residual_sd": 1.309750098678238,
+      "lag1_autocorr": -0.1353006942372039,
+      "change_after_win": 1.0070844686648501,
+      "change_after_loss": -0.7341948310139165,
+      "price_paid": 3.152833333333333,
+      "win_minus_loss": 1.7412792996787667
+    },
+    {
+      "phi": 0.5,
+      "residual_mean": -0.20727777777777778,
+      "residual_sd": 1.3420888903147112,
+      "lag1_autocorr": -0.16770622335409885,
+      "change_after_win": 1.1612681855613505,
+      "change_after_loss": -0.8392327466877595,
+      "price_paid": 3.1043333333333334,
+      "win_minus_loss": 2.00050093224911
+    }
+  ],
+  "n_pilot_runs": 3,
+  "n_cal": 300,
+  "n_eval": 300,
+  "model": "gpt-oss-20b-8k",
+  "source": "results/sprint_runs/pilot/no_talk_R0_no_talk_gpt-oss-20b-8k.jsonl",
+  "source_sha256": "27518f13835092f5384bd32c29f1204a42aaf10c703a56a141be736d4d11744e",
+  "pilot_run_ids": [
+    "no_talk_R0_no_talk_gpt-oss-20b-8k_T30_r000",
+    "no_talk_R0_no_talk_gpt-oss-20b-8k_T30_r001",
+    "no_talk_R0_no_talk_gpt-oss-20b-8k_T30_r002"
+  ],
+  "git_commit": "c8835d781ef8f816a173bd3281fbcdebba97377e",
+  "created_utc": "2026-10-24T16:25:17.079174+00:00",
+  "T": 150,
+  "burn_in": 20,
+  "bins": {
+    "bid": [
+      4,
+      8
+    ],
+    "cost": [
+      3
+    ],
+    "state": [
+      3
+    ]
+  },
+  "rule": "95th percentile (upper order statistic) of the top-two CMI gap over scripted no-coordination markets with a null bidder fitted to the model's no-talk pilot quotes"
+}

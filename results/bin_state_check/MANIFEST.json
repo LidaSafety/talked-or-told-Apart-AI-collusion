@@ -1,0 +1,26 @@
+{
+  "data_used_for_bin_selection": "no-talk logs only; no pair-talk data read",
+  "sweep": "synthetic scripted S0-S4; separate S0 gap-rule calibration; uses run_scores/calibrate_gaps/summarise",
+  "bins_for_scripted_sweep": {
+    "bid": [
+      3,
+      5,
+      7
+    ],
+    "cost": [
+      3
+    ],
+    "state": [
+      3
+    ]
+  },
+  "K": 19,
+  "r0_runs": 20,
+  "scripted_per_arm": 3,
+  "scripted_calibration": 4,
+  "notes": [
+    "Do not interpret synthetic detection rates as live-model evidence",
+    "no-talk row statistics use earlier no-talk LLM logs; leave-one-out diagnostics are not independent validation",
+    "bins are chosen on no-talk data only"
+  ]
+}

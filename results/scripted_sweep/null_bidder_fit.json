@@ -1,0 +1,127 @@
+{
+  "no_talk_runs": 13,
+  "residual_values": [
+    -1,
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "residual_probs": [
+    0.13504273504273503,
+    0.7239316239316239,
+    0.10683760683760683,
+    0.003418803418803419,
+    0.002564102564102564,
+    0.0017094017094017094,
+    0.017948717948717947,
+    0.006837606837606838,
+    0.0017094017094017094
+  ],
+  "observed": {
+    "residual_mean": 0.1358974358974359,
+    "residual_sd": 1.0325440772828476,
+    "lag1_autocorr": 0.0084060290431704,
+    "change_after_win": 0.332,
+    "change_after_loss": -0.2583201267828843,
+    "price_paid": 3.5384615384615383
+  },
+  "phi": 0.05,
+  "stress_phi": 0.5,
+  "phi_grid": [
+    {
+      "phi": 0.0,
+      "residual_mean": 0.14277777777777778,
+      "residual_sd": 1.0403808360166087,
+      "lag1_autocorr": -0.03466266520190985,
+      "change_after_win": 0.2668316187003516,
+      "change_after_loss": -0.20831190206768851,
+      "price_paid": 3.6770000000000005,
+      "win_minus_loss": 0.4751435207680401
+    },
+    {
+      "phi": 0.05,
+      "residual_mean": 0.13516666666666666,
+      "residual_sd": 1.0638540913949515,
+      "lag1_autocorr": -0.04931397844104951,
+      "change_after_win": 0.3415938437459241,
+      "change_after_loss": -0.2666187198191719,
+      "price_paid": 3.6585,
+      "win_minus_loss": 0.608212563565096
+    },
+    {
+      "phi": 0.1,
+      "residual_mean": 0.13166666666666665,
+      "residual_sd": 1.0831012571931273,
+      "lag1_autocorr": -0.06108534961252331,
+      "change_after_win": 0.41829124689258146,
+      "change_after_loss": -0.32499743773700934,
+      "price_paid": 3.6405000000000003,
+      "win_minus_loss": 0.7432886846295907
+    },
+    {
+      "phi": 0.15,
+      "residual_mean": 0.12844444444444444,
+      "residual_sd": 1.1030018747955368,
+      "lag1_autocorr": -0.08029037410387903,
+      "change_after_win": 0.5048045281031986,
+      "change_after_loss": -0.38875854330307047,
+      "price_paid": 3.6189999999999998,
+      "win_minus_loss": 0.8935630714062691
+    },
+    {
+      "phi": 0.2,
+      "residual_mean": 0.12472222222222222,
+      "residual_sd": 1.1253394206764442,
+      "lag1_autocorr": -0.0936295801920737,
+      "change_after_win": 0.5823552683634445,
+      "change_after_loss": -0.44820209840073344,
+      "price_paid": 3.603166666666667,
+      "win_minus_loss": 1.030557366764178
+    },
+    {
+      "phi": 0.25,
+      "residual_mean": 0.11566666666666667,
+      "residual_sd": 1.149231192290452,
+      "lag1_autocorr": -0.10233197619125621,
+      "change_after_win": 0.6638866825522902,
+      "change_after_loss": -0.5083282551289864,
+      "price_paid": 3.5805000000000007,
+      "win_minus_loss": 1.1722149376812765
+    },
+    {
+      "phi": 0.3,
+      "residual_mean": 0.10672222222222222,
+      "residual_sd": 1.1714660001494592,
+      "lag1_autocorr": -0.11804766246824674,
+      "change_after_win": 0.7455249799625968,
+      "change_after_loss": -0.5627395602178737,
+      "price_paid": 3.5520000000000005,
+      "win_minus_loss": 1.3082645401804704
+    },
+    {
+      "phi": 0.4,
+      "residual_mean": 0.08738888888888889,
+      "residual_sd": 1.2103153234173174,
+      "lag1_autocorr": -0.14969191769933615,
+      "change_after_win": 0.9115056240683019,
+      "change_after_loss": -0.6706915477497256,
+      "price_paid": 3.4948333333333337,
+      "win_minus_loss": 1.5821971718180277
+    },
+    {
+      "phi": 0.5,
+      "residual_mean": 0.06805555555555555,
+      "residual_sd": 1.2502806783644056,
+      "lag1_autocorr": -0.17921978518972434,
+      "change_after_win": 1.0815825375170531,
+      "change_after_loss": -0.7882820258192651,
+      "price_paid": 3.445333333333333,
+      "win_minus_loss": 1.8698645633363182
+    }
+  ]
+}

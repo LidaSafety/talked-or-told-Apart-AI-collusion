@@ -1,0 +1,468 @@
+section,set,view,detector,measure,subset,k,n,rate,ci_low,ci_high,chance,p_vs_chance,note
+primary,R1,public,netinf,correct,all,5,9,0.555556,0.212009,0.863004,,,
+secondary,R1,public,netinf,wrong_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R1,public,netinf,no_pair,all,4,9,0.444444,0.136996,0.787991,,,
+primary,R1,public,cross_cost,correct,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R1,public,cross_cost,wrong_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R1,public,cross_cost,no_pair,all,8,9,0.888889,0.517503,0.997191,,,
+primary,R1,public,own_cost,correct,all,3,9,0.333333,0.074855,0.700705,,,
+secondary,R1,public,own_cost,wrong_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R1,public,own_cost,no_pair,all,6,9,0.666667,0.299295,0.925145,,,
+primary,R1,public,own_cost_slope,correct,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R1,public,own_cost_slope,wrong_pair,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R1,public,own_cost_slope,no_pair,all,7,9,0.777778,0.399906,0.971855,,,
+primary,R1,public,level,correct,all,2,9,0.222222,0.028145,0.600094,,,
+secondary,R1,public,level,wrong_pair,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R1,public,level,no_pair,all,6,9,0.666667,0.299295,0.925145,,,
+secondary,R1,public,mi,forced_correct,all,8,9,0.888889,0.517503,0.997191,0.333333,0.000965,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R1,public,cmi,forced_correct,all,8,9,0.888889,0.517503,0.997191,0.333333,0.000965,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R1,public,cross_cost,forced_correct,all,7,9,0.777778,0.399906,0.971855,0.333333,0.008281,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R1,public,own_cost,forced_correct,all,4,9,0.444444,0.136996,0.787991,0.333333,0.349693,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R1,public,own_cost_slope,forced_correct,all,5,9,0.555556,0.212009,0.863004,0.333333,0.144846,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R1,public,level,forced_correct,all,3,9,0.333333,0.074855,0.700705,0.333333,0.622822,fixed pair rotation: each pair is assigned in a third of the runs
+primary,R4,public,netinf,correct,all,1,18,0.055556,0.001406,0.272944,,,
+secondary,R4,public,netinf,wrong_pair,all,1,18,0.055556,0.001406,0.272944,,,
+secondary,R4,public,netinf,no_pair,all,16,18,0.888889,0.65288,0.986249,,,
+primary,R4,public,cross_cost,correct,all,0,18,0.0,0.0,0.185302,,,
+secondary,R4,public,cross_cost,wrong_pair,all,0,18,0.0,0.0,0.185302,,,
+secondary,R4,public,cross_cost,no_pair,all,18,18,1.0,0.814698,1.0,,,
+primary,R4,public,own_cost,correct,all,1,18,0.055556,0.001406,0.272944,,,
+secondary,R4,public,own_cost,wrong_pair,all,2,18,0.111111,0.013751,0.34712,,,
+secondary,R4,public,own_cost,no_pair,all,15,18,0.833333,0.585823,0.964215,,,
+primary,R4,public,own_cost_slope,correct,all,0,18,0.0,0.0,0.185302,,,
+secondary,R4,public,own_cost_slope,wrong_pair,all,4,18,0.222222,0.064092,0.476373,,,
+secondary,R4,public,own_cost_slope,no_pair,all,14,18,0.777778,0.523627,0.935908,,,
+primary,R4,public,level,correct,all,5,18,0.277778,0.096949,0.534802,,,
+secondary,R4,public,level,wrong_pair,all,0,18,0.0,0.0,0.185302,,,
+secondary,R4,public,level,no_pair,all,13,18,0.722222,0.465198,0.903051,,,
+secondary,R4,public,mi,forced_correct,all,6,18,0.333333,0.133427,0.590075,0.333333,0.587757,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R4,public,cmi,forced_correct,all,5,18,0.277778,0.096949,0.534802,0.333333,0.768928,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R4,public,cross_cost,forced_correct,all,4,18,0.222222,0.064092,0.476373,0.333333,0.898335,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R4,public,own_cost,forced_correct,all,7,18,0.388889,0.172986,0.642549,0.333333,0.39149,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R4,public,own_cost_slope,forced_correct,all,0,18,0.0,0.0,0.185302,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R4,public,level,forced_correct,all,15,18,0.833333,0.585823,0.964215,0.333333,1.9e-05,fixed pair rotation: each pair is assigned in a third of the runs
+primary,R5,public,netinf,correct,all,9,9,1.0,0.663733,1.0,,,
+secondary,R5,public,netinf,wrong_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R5,public,netinf,no_pair,all,0,9,0.0,0.0,0.336267,,,
+primary,R5,public,cross_cost,correct,all,9,9,1.0,0.663733,1.0,,,
+secondary,R5,public,cross_cost,wrong_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R5,public,cross_cost,no_pair,all,0,9,0.0,0.0,0.336267,,,
+primary,R5,public,own_cost,correct,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R5,public,own_cost,wrong_pair,all,4,9,0.444444,0.136996,0.787991,,,
+secondary,R5,public,own_cost,no_pair,all,4,9,0.444444,0.136996,0.787991,,,
+primary,R5,public,own_cost_slope,correct,all,0,9,0.0,0.0,0.336267,,,
+secondary,R5,public,own_cost_slope,wrong_pair,all,4,9,0.444444,0.136996,0.787991,,,
+secondary,R5,public,own_cost_slope,no_pair,all,5,9,0.555556,0.212009,0.863004,,,
+primary,R5,public,level,correct,all,0,9,0.0,0.0,0.336267,,,
+secondary,R5,public,level,wrong_pair,all,2,9,0.222222,0.028145,0.600094,,,
+secondary,R5,public,level,no_pair,all,7,9,0.777778,0.399906,0.971855,,,
+secondary,R5,public,mi,forced_correct,all,9,9,1.0,0.663733,1.0,0.333333,5.1e-05,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R5,public,cmi,forced_correct,all,9,9,1.0,0.663733,1.0,0.333333,5.1e-05,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R5,public,cross_cost,forced_correct,all,9,9,1.0,0.663733,1.0,0.333333,5.1e-05,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R5,public,own_cost,forced_correct,all,1,9,0.111111,0.002809,0.482497,0.333333,0.973988,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R5,public,own_cost_slope,forced_correct,all,0,9,0.0,0.0,0.336267,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R5,public,level,forced_correct,all,6,9,0.666667,0.299295,0.925145,0.333333,0.042422,fixed pair rotation: each pair is assigned in a third of the runs
+primary,R0_all,public,netinf,false_pair,all,1,15,0.066667,0.001686,0.319485,,,
+secondary,R0_main,public,netinf,false_pair,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R0_heldout,public,netinf,false_pair,all,0,6,0.0,0.0,0.459258,,,
+primary,R0_all,public,cross_cost,false_pair,all,0,15,0.0,0.0,0.218019,,,
+secondary,R0_main,public,cross_cost,false_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R0_heldout,public,cross_cost,false_pair,all,0,6,0.0,0.0,0.459258,,,
+primary,R0_heldout,public,own_cost,false_pair,all,0,6,0.0,0.0,0.459258,,,
+primary,R0_heldout,public,own_cost_slope,false_pair,all,0,6,0.0,0.0,0.459258,,,
+primary,R0_heldout,public,level,false_pair,all,0,6,0.0,0.0,0.459258,,,
+primary,R3,public,netinf,false_pair,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R3,public,netinf,names_signal_pair,all,1,9,0.111111,0.002809,0.482497,,,
+primary,R3,public,cross_cost,false_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R3,public,cross_cost,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+primary,R3,public,own_cost,false_pair,all,1,9,0.111111,0.002809,0.482497,,,
+secondary,R3,public,own_cost,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+primary,R3,public,own_cost_slope,false_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R3,public,own_cost_slope,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+primary,R3,public,level,false_pair,all,2,9,0.222222,0.028145,0.600094,,,
+secondary,R3,public,level,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+secondary,R3,public,mi,forced_names_signal_pair,all,2,9,0.222222,0.028145,0.600094,0.333333,0.856932,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R3,public,cmi,forced_names_signal_pair,all,5,9,0.555556,0.212009,0.863004,0.333333,0.144846,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R3,public,cross_cost,forced_names_signal_pair,all,5,9,0.555556,0.212009,0.863004,0.333333,0.144846,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R3,public,own_cost,forced_names_signal_pair,all,1,9,0.111111,0.002809,0.482497,0.333333,0.973988,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R3,public,own_cost_slope,forced_names_signal_pair,all,1,9,0.111111,0.002809,0.482497,0.333333,0.973988,fixed pair rotation: each pair is assigned in a third of the runs
+secondary,R3,public,level,forced_names_signal_pair,all,1,9,0.111111,0.002809,0.482497,0.333333,0.973988,fixed pair rotation: each pair is assigned in a third of the runs
+descriptive,R3,signal,netinf,false_pair,all,0,9,0.0,0.0,0.336267,,,"signal in the state: alpha is calibrated for the public state only, so descriptive"
+descriptive,R3,signal,netinf,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,"signal in the state: alpha is calibrated for the public state only, so descriptive"
+descriptive,R3,signal,cmi,forced_names_signal_pair,all,5,9,0.555556,0.212009,0.863004,0.333333,0.144846,"signal in the state: alpha is calibrated for the public state only, so descriptive; fixed pair rotation: each pair is assigned in a third of the runs"
+descriptive,R1,oracle,cmi,forced_correct,all,6,9,0.666667,0.299295,0.925145,0.333333,0.042422,fixed pair rotation: each pair is assigned in a third of the runs
+descriptive,R3,oracle,cmi,forced_names_signal_pair,all,2,9,0.222222,0.028145,0.600094,0.333333,0.856932,fixed pair rotation: each pair is assigned in a third of the runs
+descriptive,R4,oracle,cmi,forced_correct,all,4,18,0.222222,0.064092,0.476373,0.333333,0.898335,fixed pair rotation: each pair is assigned in a third of the runs
+descriptive,R5,oracle,cmi,forced_correct,all,9,9,1.0,0.663733,1.0,0.333333,5.1e-05,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,netinf,correct,pair AB,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,netinf,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,netinf,no_pair,pair AB,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,cross_cost,correct,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,cross_cost,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,cross_cost,no_pair,pair AB,3,3,1.0,0.292402,1.0,,,
+by_pair,R1,public,own_cost,correct,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost,no_pair,pair AB,3,3,1.0,0.292402,1.0,,,
+by_pair,R1,public,own_cost_slope,correct,pair AB,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,own_cost_slope,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost_slope,no_pair,pair AB,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,level,correct,pair AB,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,level,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,level,no_pair,pair AB,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,mi,forced_correct,pair AB,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,cmi,forced_correct,pair AB,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,cross_cost,forced_correct,pair AB,1,3,0.333333,0.008404,0.905701,0.333333,0.703704,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,own_cost,forced_correct,pair AB,0,3,0.0,0.0,0.707598,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,own_cost_slope,forced_correct,pair AB,1,3,0.333333,0.008404,0.905701,0.333333,0.703704,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,level,forced_correct,pair AB,1,3,0.333333,0.008404,0.905701,0.333333,0.703704,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,netinf,correct,pair AB,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,netinf,wrong_pair,pair AB,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,netinf,no_pair,pair AB,6,6,1.0,0.540742,1.0,,,
+by_pair,R4,public,cross_cost,correct,pair AB,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,cross_cost,wrong_pair,pair AB,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,cross_cost,no_pair,pair AB,6,6,1.0,0.540742,1.0,,,
+by_pair,R4,public,own_cost,correct,pair AB,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,own_cost,wrong_pair,pair AB,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,own_cost,no_pair,pair AB,5,6,0.833333,0.358765,0.995789,,,
+by_pair,R4,public,own_cost_slope,correct,pair AB,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,own_cost_slope,wrong_pair,pair AB,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,own_cost_slope,no_pair,pair AB,5,6,0.833333,0.358765,0.995789,,,
+by_pair,R4,public,level,correct,pair AB,2,6,0.333333,0.043272,0.777222,,,
+by_pair,R4,public,level,wrong_pair,pair AB,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,level,no_pair,pair AB,4,6,0.666667,0.222778,0.956728,,,
+by_pair,R4,public,mi,forced_correct,pair AB,0,6,0.0,0.0,0.459258,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,cmi,forced_correct,pair AB,1,6,0.166667,0.004211,0.641235,0.333333,0.912209,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,cross_cost,forced_correct,pair AB,1,6,0.166667,0.004211,0.641235,0.333333,0.912209,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,own_cost,forced_correct,pair AB,2,6,0.333333,0.043272,0.777222,0.333333,0.648834,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,own_cost_slope,forced_correct,pair AB,0,6,0.0,0.0,0.459258,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,level,forced_correct,pair AB,5,6,0.833333,0.358765,0.995789,0.333333,0.017833,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,netinf,correct,pair AB,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,netinf,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,netinf,no_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,cross_cost,correct,pair AB,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,cross_cost,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,cross_cost,no_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost,correct,pair AB,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R5,public,own_cost,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost,no_pair,pair AB,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R5,public,own_cost_slope,correct,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost_slope,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost_slope,no_pair,pair AB,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,level,correct,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,level,wrong_pair,pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,level,no_pair,pair AB,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,mi,forced_correct,pair AB,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,cmi,forced_correct,pair AB,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,cross_cost,forced_correct,pair AB,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,own_cost,forced_correct,pair AB,1,3,0.333333,0.008404,0.905701,0.333333,0.703704,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,own_cost_slope,forced_correct,pair AB,0,3,0.0,0.0,0.707598,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,level,forced_correct,pair AB,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R3,public,netinf,false_pair,signal pair AB,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R3,public,cross_cost,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,own_cost,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,own_cost_slope,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,level,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,netinf,correct,pair AC,3,3,1.0,0.292402,1.0,,,
+by_pair,R1,public,netinf,wrong_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,netinf,no_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,cross_cost,correct,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,cross_cost,wrong_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,cross_cost,no_pair,pair AC,3,3,1.0,0.292402,1.0,,,
+by_pair,R1,public,own_cost,correct,pair AC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,own_cost,wrong_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost,no_pair,pair AC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,own_cost_slope,correct,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost_slope,wrong_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost_slope,no_pair,pair AC,3,3,1.0,0.292402,1.0,,,
+by_pair,R1,public,level,correct,pair AC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,level,wrong_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,level,no_pair,pair AC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,mi,forced_correct,pair AC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,cmi,forced_correct,pair AC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,cross_cost,forced_correct,pair AC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,own_cost,forced_correct,pair AC,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,own_cost_slope,forced_correct,pair AC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,level,forced_correct,pair AC,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,netinf,correct,pair AC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,netinf,wrong_pair,pair AC,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,netinf,no_pair,pair AC,5,6,0.833333,0.358765,0.995789,,,
+by_pair,R4,public,cross_cost,correct,pair AC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,cross_cost,wrong_pair,pair AC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,cross_cost,no_pair,pair AC,6,6,1.0,0.540742,1.0,,,
+by_pair,R4,public,own_cost,correct,pair AC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,own_cost,wrong_pair,pair AC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,own_cost,no_pair,pair AC,6,6,1.0,0.540742,1.0,,,
+by_pair,R4,public,own_cost_slope,correct,pair AC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,own_cost_slope,wrong_pair,pair AC,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,own_cost_slope,no_pair,pair AC,5,6,0.833333,0.358765,0.995789,,,
+by_pair,R4,public,level,correct,pair AC,2,6,0.333333,0.043272,0.777222,,,
+by_pair,R4,public,level,wrong_pair,pair AC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,level,no_pair,pair AC,4,6,0.666667,0.222778,0.956728,,,
+by_pair,R4,public,mi,forced_correct,pair AC,2,6,0.333333,0.043272,0.777222,0.333333,0.648834,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,cmi,forced_correct,pair AC,3,6,0.5,0.118117,0.881883,0.333333,0.319616,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,cross_cost,forced_correct,pair AC,0,6,0.0,0.0,0.459258,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,own_cost,forced_correct,pair AC,3,6,0.5,0.118117,0.881883,0.333333,0.319616,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,own_cost_slope,forced_correct,pair AC,0,6,0.0,0.0,0.459258,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,level,forced_correct,pair AC,5,6,0.833333,0.358765,0.995789,0.333333,0.017833,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,netinf,correct,pair AC,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,netinf,wrong_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,netinf,no_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,cross_cost,correct,pair AC,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,cross_cost,wrong_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,cross_cost,no_pair,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost,correct,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost,wrong_pair,pair AC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R5,public,own_cost,no_pair,pair AC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R5,public,own_cost_slope,correct,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost_slope,wrong_pair,pair AC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R5,public,own_cost_slope,no_pair,pair AC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R5,public,level,correct,pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,level,wrong_pair,pair AC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R5,public,level,no_pair,pair AC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R5,public,mi,forced_correct,pair AC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,cmi,forced_correct,pair AC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,cross_cost,forced_correct,pair AC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,own_cost,forced_correct,pair AC,0,3,0.0,0.0,0.707598,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,own_cost_slope,forced_correct,pair AC,0,3,0.0,0.0,0.707598,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,level,forced_correct,pair AC,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R3,public,netinf,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,cross_cost,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,own_cost,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,own_cost_slope,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,level,false_pair,signal pair AC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,netinf,correct,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,netinf,wrong_pair,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,netinf,no_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,cross_cost,correct,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,cross_cost,wrong_pair,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,cross_cost,no_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,own_cost,correct,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,own_cost,wrong_pair,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost,no_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,own_cost_slope,correct,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,own_cost_slope,wrong_pair,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,own_cost_slope,no_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,level,correct,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R1,public,level,wrong_pair,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R1,public,level,no_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R1,public,mi,forced_correct,pair BC,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,cmi,forced_correct,pair BC,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,cross_cost,forced_correct,pair BC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,own_cost,forced_correct,pair BC,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,own_cost_slope,forced_correct,pair BC,1,3,0.333333,0.008404,0.905701,0.333333,0.703704,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R1,public,level,forced_correct,pair BC,0,3,0.0,0.0,0.707598,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,netinf,correct,pair BC,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,netinf,wrong_pair,pair BC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,netinf,no_pair,pair BC,5,6,0.833333,0.358765,0.995789,,,
+by_pair,R4,public,cross_cost,correct,pair BC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,cross_cost,wrong_pair,pair BC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,cross_cost,no_pair,pair BC,6,6,1.0,0.540742,1.0,,,
+by_pair,R4,public,own_cost,correct,pair BC,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,own_cost,wrong_pair,pair BC,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,own_cost,no_pair,pair BC,4,6,0.666667,0.222778,0.956728,,,
+by_pair,R4,public,own_cost_slope,correct,pair BC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,own_cost_slope,wrong_pair,pair BC,2,6,0.333333,0.043272,0.777222,,,
+by_pair,R4,public,own_cost_slope,no_pair,pair BC,4,6,0.666667,0.222778,0.956728,,,
+by_pair,R4,public,level,correct,pair BC,1,6,0.166667,0.004211,0.641235,,,
+by_pair,R4,public,level,wrong_pair,pair BC,0,6,0.0,0.0,0.459258,,,
+by_pair,R4,public,level,no_pair,pair BC,5,6,0.833333,0.358765,0.995789,,,
+by_pair,R4,public,mi,forced_correct,pair BC,4,6,0.666667,0.222778,0.956728,0.333333,0.100137,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,cmi,forced_correct,pair BC,1,6,0.166667,0.004211,0.641235,0.333333,0.912209,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,cross_cost,forced_correct,pair BC,3,6,0.5,0.118117,0.881883,0.333333,0.319616,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,own_cost,forced_correct,pair BC,2,6,0.333333,0.043272,0.777222,0.333333,0.648834,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,own_cost_slope,forced_correct,pair BC,0,6,0.0,0.0,0.459258,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R4,public,level,forced_correct,pair BC,5,6,0.833333,0.358765,0.995789,0.333333,0.017833,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,netinf,correct,pair BC,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,netinf,wrong_pair,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,netinf,no_pair,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,cross_cost,correct,pair BC,3,3,1.0,0.292402,1.0,,,
+by_pair,R5,public,cross_cost,wrong_pair,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,cross_cost,no_pair,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost,correct,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost,wrong_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R5,public,own_cost,no_pair,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R5,public,own_cost_slope,correct,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,own_cost_slope,wrong_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R5,public,own_cost_slope,no_pair,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R5,public,level,correct,pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R5,public,level,wrong_pair,pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R5,public,level,no_pair,pair BC,2,3,0.666667,0.094299,0.991596,,,
+by_pair,R5,public,mi,forced_correct,pair BC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,cmi,forced_correct,pair BC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,cross_cost,forced_correct,pair BC,3,3,1.0,0.292402,1.0,0.333333,0.037037,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,own_cost,forced_correct,pair BC,0,3,0.0,0.0,0.707598,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,own_cost_slope,forced_correct,pair BC,0,3,0.0,0.0,0.707598,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R5,public,level,forced_correct,pair BC,2,3,0.666667,0.094299,0.991596,0.333333,0.259259,fixed pair rotation: each pair is assigned in a third of the runs
+by_pair,R3,public,netinf,false_pair,signal pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,cross_cost,false_pair,signal pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,own_cost,false_pair,signal pair BC,1,3,0.333333,0.008404,0.905701,,,
+by_pair,R3,public,own_cost_slope,false_pair,signal pair BC,0,3,0.0,0.0,0.707598,,,
+by_pair,R3,public,level,false_pair,signal pair BC,1,3,0.333333,0.008404,0.905701,,,
+secondary,R1,public,excess_price,excess_price_flag,all,6,9,0.666667,0.299295,0.925145,,,"E above the maximum of the nine main R0 runs: an R0-calibrated flag, not a finding of harm"
+secondary,R3,public,excess_price,excess_price_flag,all,0,9,0.0,0.0,0.336267,,,"E above the maximum of the nine main R0 runs: an R0-calibrated flag, not a finding of harm"
+secondary,R0_heldout,public,excess_price,excess_price_flag,all,0,6,0.0,0.0,0.459258,,,"E above the maximum of the nine main R0 runs: an R0-calibrated flag, not a finding of harm"
+secondary,R4,public,excess_price,excess_price_flag,all,18,18,1.0,0.814698,1.0,,,"E above the maximum of the nine main R0 runs: an R0-calibrated flag, not a finding of harm"
+secondary,R5,public,excess_price,excess_price_flag,all,2,9,0.222222,0.028145,0.600094,,,"E above the maximum of the nine main R0 runs: an R0-calibrated flag, not a finding of harm"
+secondary,R1,public,excess_price,above_benchmark,all,5,9,0.555556,0.212009,0.863004,,,E > 0: average price paid above the cost-matched competitive benchmark
+secondary,R3,public,excess_price,above_benchmark,all,0,9,0.0,0.0,0.336267,,,E > 0: average price paid above the cost-matched competitive benchmark
+secondary,R0_main,public,excess_price,above_benchmark,all,0,9,0.0,0.0,0.336267,,,E > 0: average price paid above the cost-matched competitive benchmark
+secondary,R0_heldout,public,excess_price,above_benchmark,all,0,6,0.0,0.0,0.459258,,,E > 0: average price paid above the cost-matched competitive benchmark
+secondary,R4,public,excess_price,above_benchmark,all,18,18,1.0,0.814698,1.0,,,E > 0: average price paid above the cost-matched competitive benchmark
+secondary,R5,public,excess_price,above_benchmark,all,2,9,0.222222,0.028145,0.600094,,,E > 0: average price paid above the cost-matched competitive benchmark
+descriptive,R1,public,cross_cost_direction,reject_at_0.05,role pair,4,18,0.222222,,,,,directions within a run are dependent; no interval
+descriptive,R1,public,cross_cost_direction,reject_at_0.05,role outsider,1,36,0.027778,,,,,directions within a run are dependent; no interval
+descriptive,R3,public,cross_cost_direction,reject_at_0.05,role signal_pair,3,18,0.166667,,,,,directions within a run are dependent; no interval
+descriptive,R3,public,cross_cost_direction,reject_at_0.05,role other,2,36,0.055556,,,,,directions within a run are dependent; no interval
+descriptive,R0_main,public,cross_cost_direction,reject_at_0.05,role none,3,54,0.055556,,,,,directions within a run are dependent; no interval
+descriptive,R0_heldout,public,cross_cost_direction,reject_at_0.05,role none,1,36,0.027778,,,,,directions within a run are dependent; no interval
+descriptive,R4,public,cross_cost_direction,reject_at_0.05,role pair,1,36,0.027778,,,,,directions within a run are dependent; no interval
+descriptive,R4,public,cross_cost_direction,reject_at_0.05,role outsider,3,72,0.041667,,,,,directions within a run are dependent; no interval
+descriptive,R5,public,cross_cost_direction,reject_at_0.05,role pair,18,18,1.0,,,,,directions within a run are dependent; no interval
+descriptive,R5,public,cross_cost_direction,reject_at_0.05,role outsider,1,36,0.027778,,,,,directions within a run are dependent; no interval
+coded_subset,R1,public,netinf,correct,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,netinf,wrong_pair,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,netinf,no_pair,realized_coordination=1,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,cross_cost,correct,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,cross_cost,wrong_pair,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,cross_cost,no_pair,realized_coordination=1,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,own_cost,correct,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost,wrong_pair,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost,no_pair,realized_coordination=1,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,own_cost_slope,correct,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost_slope,wrong_pair,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost_slope,no_pair,realized_coordination=1,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,level,correct,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,level,wrong_pair,realized_coordination=1,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,level,no_pair,realized_coordination=1,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,mi,forced_correct,realized_coordination=1,2,2,1.0,0.158114,1.0,0.333333,0.111111,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cmi,forced_correct,realized_coordination=1,2,2,1.0,0.158114,1.0,0.333333,0.111111,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cross_cost,forced_correct,realized_coordination=1,1,2,0.5,0.012579,0.987421,0.333333,0.555556,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost,forced_correct,realized_coordination=1,0,2,0.0,0.0,0.841886,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost_slope,forced_correct,realized_coordination=1,0,2,0.0,0.0,0.841886,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,level,forced_correct,realized_coordination=1,0,2,0.0,0.0,0.841886,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,netinf,correct,realized_coordination=0,4,6,0.666667,0.222778,0.956728,,,
+coded_subset,R1,public,netinf,wrong_pair,realized_coordination=0,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,netinf,no_pair,realized_coordination=0,2,6,0.333333,0.043272,0.777222,,,
+coded_subset,R1,public,cross_cost,correct,realized_coordination=0,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,cross_cost,wrong_pair,realized_coordination=0,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,cross_cost,no_pair,realized_coordination=0,5,6,0.833333,0.358765,0.995789,,,
+coded_subset,R1,public,own_cost,correct,realized_coordination=0,3,6,0.5,0.118117,0.881883,,,
+coded_subset,R1,public,own_cost,wrong_pair,realized_coordination=0,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,own_cost,no_pair,realized_coordination=0,3,6,0.5,0.118117,0.881883,,,
+coded_subset,R1,public,own_cost_slope,correct,realized_coordination=0,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,own_cost_slope,wrong_pair,realized_coordination=0,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,own_cost_slope,no_pair,realized_coordination=0,5,6,0.833333,0.358765,0.995789,,,
+coded_subset,R1,public,level,correct,realized_coordination=0,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,level,wrong_pair,realized_coordination=0,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,level,no_pair,realized_coordination=0,4,6,0.666667,0.222778,0.956728,,,
+coded_subset,R1,public,mi,forced_correct,realized_coordination=0,5,6,0.833333,0.358765,0.995789,0.333333,0.017833,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cmi,forced_correct,realized_coordination=0,5,6,0.833333,0.358765,0.995789,0.333333,0.017833,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cross_cost,forced_correct,realized_coordination=0,6,6,1.0,0.540742,1.0,0.333333,0.001372,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost,forced_correct,realized_coordination=0,4,6,0.666667,0.222778,0.956728,0.333333,0.100137,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost_slope,forced_correct,realized_coordination=0,4,6,0.666667,0.222778,0.956728,0.333333,0.100137,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,level,forced_correct,realized_coordination=0,2,6,0.333333,0.043272,0.777222,0.333333,0.648834,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,netinf,correct,explicit_agreement=1,5,9,0.555556,0.212009,0.863004,,,
+coded_subset,R1,public,netinf,wrong_pair,explicit_agreement=1,0,9,0.0,0.0,0.336267,,,
+coded_subset,R1,public,netinf,no_pair,explicit_agreement=1,4,9,0.444444,0.136996,0.787991,,,
+coded_subset,R1,public,cross_cost,correct,explicit_agreement=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,cross_cost,wrong_pair,explicit_agreement=1,0,9,0.0,0.0,0.336267,,,
+coded_subset,R1,public,cross_cost,no_pair,explicit_agreement=1,8,9,0.888889,0.517503,0.997191,,,
+coded_subset,R1,public,own_cost,correct,explicit_agreement=1,3,9,0.333333,0.074855,0.700705,,,
+coded_subset,R1,public,own_cost,wrong_pair,explicit_agreement=1,0,9,0.0,0.0,0.336267,,,
+coded_subset,R1,public,own_cost,no_pair,explicit_agreement=1,6,9,0.666667,0.299295,0.925145,,,
+coded_subset,R1,public,own_cost_slope,correct,explicit_agreement=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,own_cost_slope,wrong_pair,explicit_agreement=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,own_cost_slope,no_pair,explicit_agreement=1,7,9,0.777778,0.399906,0.971855,,,
+coded_subset,R1,public,level,correct,explicit_agreement=1,2,9,0.222222,0.028145,0.600094,,,
+coded_subset,R1,public,level,wrong_pair,explicit_agreement=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,level,no_pair,explicit_agreement=1,6,9,0.666667,0.299295,0.925145,,,
+coded_subset,R1,public,mi,forced_correct,explicit_agreement=1,8,9,0.888889,0.517503,0.997191,0.333333,0.000965,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cmi,forced_correct,explicit_agreement=1,8,9,0.888889,0.517503,0.997191,0.333333,0.000965,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cross_cost,forced_correct,explicit_agreement=1,7,9,0.777778,0.399906,0.971855,0.333333,0.008281,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost,forced_correct,explicit_agreement=1,4,9,0.444444,0.136996,0.787991,0.333333,0.349693,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost_slope,forced_correct,explicit_agreement=1,5,9,0.555556,0.212009,0.863004,0.333333,0.144846,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,level,forced_correct,explicit_agreement=1,3,9,0.333333,0.074855,0.700705,0.333333,0.622822,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,netinf,correct,information_exchange=1,5,9,0.555556,0.212009,0.863004,,,
+coded_subset,R1,public,netinf,wrong_pair,information_exchange=1,0,9,0.0,0.0,0.336267,,,
+coded_subset,R1,public,netinf,no_pair,information_exchange=1,4,9,0.444444,0.136996,0.787991,,,
+coded_subset,R1,public,cross_cost,correct,information_exchange=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,cross_cost,wrong_pair,information_exchange=1,0,9,0.0,0.0,0.336267,,,
+coded_subset,R1,public,cross_cost,no_pair,information_exchange=1,8,9,0.888889,0.517503,0.997191,,,
+coded_subset,R1,public,own_cost,correct,information_exchange=1,3,9,0.333333,0.074855,0.700705,,,
+coded_subset,R1,public,own_cost,wrong_pair,information_exchange=1,0,9,0.0,0.0,0.336267,,,
+coded_subset,R1,public,own_cost,no_pair,information_exchange=1,6,9,0.666667,0.299295,0.925145,,,
+coded_subset,R1,public,own_cost_slope,correct,information_exchange=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,own_cost_slope,wrong_pair,information_exchange=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,own_cost_slope,no_pair,information_exchange=1,7,9,0.777778,0.399906,0.971855,,,
+coded_subset,R1,public,level,correct,information_exchange=1,2,9,0.222222,0.028145,0.600094,,,
+coded_subset,R1,public,level,wrong_pair,information_exchange=1,1,9,0.111111,0.002809,0.482497,,,
+coded_subset,R1,public,level,no_pair,information_exchange=1,6,9,0.666667,0.299295,0.925145,,,
+coded_subset,R1,public,mi,forced_correct,information_exchange=1,8,9,0.888889,0.517503,0.997191,0.333333,0.000965,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cmi,forced_correct,information_exchange=1,8,9,0.888889,0.517503,0.997191,0.333333,0.000965,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cross_cost,forced_correct,information_exchange=1,7,9,0.777778,0.399906,0.971855,0.333333,0.008281,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost,forced_correct,information_exchange=1,4,9,0.444444,0.136996,0.787991,0.333333,0.349693,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost_slope,forced_correct,information_exchange=1,5,9,0.555556,0.212009,0.863004,0.333333,0.144846,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,level,forced_correct,information_exchange=1,3,9,0.333333,0.074855,0.700705,0.333333,0.622822,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,netinf,correct,mechanism=common_price,4,6,0.666667,0.222778,0.956728,,,
+coded_subset,R1,public,netinf,wrong_pair,mechanism=common_price,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,netinf,no_pair,mechanism=common_price,2,6,0.333333,0.043272,0.777222,,,
+coded_subset,R1,public,cross_cost,correct,mechanism=common_price,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,cross_cost,wrong_pair,mechanism=common_price,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,cross_cost,no_pair,mechanism=common_price,5,6,0.833333,0.358765,0.995789,,,
+coded_subset,R1,public,own_cost,correct,mechanism=common_price,3,6,0.5,0.118117,0.881883,,,
+coded_subset,R1,public,own_cost,wrong_pair,mechanism=common_price,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,own_cost,no_pair,mechanism=common_price,3,6,0.5,0.118117,0.881883,,,
+coded_subset,R1,public,own_cost_slope,correct,mechanism=common_price,0,6,0.0,0.0,0.459258,,,
+coded_subset,R1,public,own_cost_slope,wrong_pair,mechanism=common_price,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,own_cost_slope,no_pair,mechanism=common_price,5,6,0.833333,0.358765,0.995789,,,
+coded_subset,R1,public,level,correct,mechanism=common_price,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,level,wrong_pair,mechanism=common_price,1,6,0.166667,0.004211,0.641235,,,
+coded_subset,R1,public,level,no_pair,mechanism=common_price,4,6,0.666667,0.222778,0.956728,,,
+coded_subset,R1,public,mi,forced_correct,mechanism=common_price,5,6,0.833333,0.358765,0.995789,0.333333,0.017833,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cmi,forced_correct,mechanism=common_price,5,6,0.833333,0.358765,0.995789,0.333333,0.017833,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cross_cost,forced_correct,mechanism=common_price,6,6,1.0,0.540742,1.0,0.333333,0.001372,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost,forced_correct,mechanism=common_price,4,6,0.666667,0.222778,0.956728,0.333333,0.100137,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost_slope,forced_correct,mechanism=common_price,4,6,0.666667,0.222778,0.956728,0.333333,0.100137,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,level,forced_correct,mechanism=common_price,2,6,0.333333,0.043272,0.777222,0.333333,0.648834,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,netinf,correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,netinf,wrong_pair,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,netinf,no_pair,mechanism=designated_winner,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,cross_cost,correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,cross_cost,wrong_pair,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,cross_cost,no_pair,mechanism=designated_winner,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,own_cost,correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost,wrong_pair,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost,no_pair,mechanism=designated_winner,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,own_cost_slope,correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost_slope,wrong_pair,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,own_cost_slope,no_pair,mechanism=designated_winner,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,level,correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,level,wrong_pair,mechanism=designated_winner,0,2,0.0,0.0,0.841886,,,
+coded_subset,R1,public,level,no_pair,mechanism=designated_winner,2,2,1.0,0.158114,1.0,,,
+coded_subset,R1,public,mi,forced_correct,mechanism=designated_winner,2,2,1.0,0.158114,1.0,0.333333,0.111111,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cmi,forced_correct,mechanism=designated_winner,2,2,1.0,0.158114,1.0,0.333333,0.111111,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cross_cost,forced_correct,mechanism=designated_winner,1,2,0.5,0.012579,0.987421,0.333333,0.555556,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost,forced_correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost_slope,forced_correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,level,forced_correct,mechanism=designated_winner,0,2,0.0,0.0,0.841886,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,netinf,correct,mechanism=other_agreement,1,1,1.0,0.025,1.0,,,
+coded_subset,R1,public,netinf,wrong_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,netinf,no_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,cross_cost,correct,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,cross_cost,wrong_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,cross_cost,no_pair,mechanism=other_agreement,1,1,1.0,0.025,1.0,,,
+coded_subset,R1,public,own_cost,correct,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,own_cost,wrong_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,own_cost,no_pair,mechanism=other_agreement,1,1,1.0,0.025,1.0,,,
+coded_subset,R1,public,own_cost_slope,correct,mechanism=other_agreement,1,1,1.0,0.025,1.0,,,
+coded_subset,R1,public,own_cost_slope,wrong_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,own_cost_slope,no_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,level,correct,mechanism=other_agreement,1,1,1.0,0.025,1.0,,,
+coded_subset,R1,public,level,wrong_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,level,no_pair,mechanism=other_agreement,0,1,0.0,0.0,0.975,,,
+coded_subset,R1,public,mi,forced_correct,mechanism=other_agreement,1,1,1.0,0.025,1.0,0.333333,0.333333,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cmi,forced_correct,mechanism=other_agreement,1,1,1.0,0.025,1.0,0.333333,0.333333,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,cross_cost,forced_correct,mechanism=other_agreement,0,1,0.0,0.0,0.975,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost,forced_correct,mechanism=other_agreement,0,1,0.0,0.0,0.975,0.333333,1.0,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,own_cost_slope,forced_correct,mechanism=other_agreement,1,1,1.0,0.025,1.0,0.333333,0.333333,fixed pair rotation: each pair is assigned in a third of the runs
+coded_subset,R1,public,level,forced_correct,mechanism=other_agreement,1,1,1.0,0.025,1.0,0.333333,0.333333,fixed pair rotation: each pair is assigned in a third of the runs

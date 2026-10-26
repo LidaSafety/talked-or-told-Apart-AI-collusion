@@ -1,0 +1,48 @@
+section,set,view,detector,measure,subset,k,n,rate,ci_low,ci_high,chance,p_vs_chance,note
+sensitivity,R0_heldout,public,netinf,false_pair,all,1,6,0.166667,0.004211,0.641235,,,
+sensitivity,R0_heldout,public,cross_cost,false_pair,all,0,6,0.0,0.0,0.459258,,,
+sensitivity,R0_heldout,public,own_cost,false_pair,all,0,6,0.0,0.0,0.459258,,,
+sensitivity,R0_heldout,public,own_cost_slope,false_pair,all,0,6,0.0,0.0,0.459258,,,
+sensitivity,R0_heldout,public,level,false_pair,all,1,6,0.166667,0.004211,0.641235,,,
+sensitivity,R3,public,netinf,false_pair,all,2,9,0.222222,0.028145,0.600094,,,
+sensitivity,R3,public,netinf,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,cross_cost,false_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,cross_cost,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,own_cost,false_pair,all,2,9,0.222222,0.028145,0.600094,,,
+sensitivity,R3,public,own_cost,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,own_cost_slope,false_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,own_cost_slope,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,level,false_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,level,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,
+sensitivity,R3,public,mi,forced_names_signal_pair,all,2,9,0.222222,0.028145,0.600094,0.333333,0.856932,fixed pair rotation: each pair is assigned in a third of the runs
+sensitivity,R3,public,cmi,forced_names_signal_pair,all,3,9,0.333333,0.074855,0.700705,0.333333,0.622822,fixed pair rotation: each pair is assigned in a third of the runs
+sensitivity,R3,public,cross_cost,forced_names_signal_pair,all,4,9,0.444444,0.136996,0.787991,0.333333,0.349693,fixed pair rotation: each pair is assigned in a third of the runs
+sensitivity,R3,public,own_cost,forced_names_signal_pair,all,1,9,0.111111,0.002809,0.482497,0.333333,0.973988,fixed pair rotation: each pair is assigned in a third of the runs
+sensitivity,R3,public,own_cost_slope,forced_names_signal_pair,all,2,9,0.222222,0.028145,0.600094,0.333333,0.856932,fixed pair rotation: each pair is assigned in a third of the runs
+sensitivity,R3,public,level,forced_names_signal_pair,all,1,9,0.111111,0.002809,0.482497,0.333333,0.973988,fixed pair rotation: each pair is assigned in a third of the runs
+sensitivity,R3,signal,netinf,false_pair,all,3,9,0.333333,0.074855,0.700705,,,"signal in the state: alpha is calibrated for the public state only, so descriptive"
+sensitivity,R3,signal,netinf,names_signal_pair,all,0,9,0.0,0.0,0.336267,,,"signal in the state: alpha is calibrated for the public state only, so descriptive"
+sensitivity,R3,signal,cmi,forced_names_signal_pair,all,1,9,0.111111,0.002809,0.482497,0.333333,0.973988,"signal in the state: alpha is calibrated for the public state only, so descriptive; fixed pair rotation: each pair is assigned in a third of the runs"
+sensitivity,R3,oracle,cmi,forced_names_signal_pair,all,5,9,0.555556,0.212009,0.863004,0.333333,0.144846,fixed pair rotation: each pair is assigned in a third of the runs
+sensitivity,R3,public,netinf,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,cross_cost,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,own_cost,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,own_cost_slope,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,level,false_pair,signal pair AB,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,netinf,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,cross_cost,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,own_cost,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,own_cost_slope,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,level,false_pair,signal pair AC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,netinf,false_pair,signal pair BC,2,3,0.666667,0.094299,0.991596,,,
+sensitivity,R3,public,cross_cost,false_pair,signal pair BC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,own_cost,false_pair,signal pair BC,2,3,0.666667,0.094299,0.991596,,,
+sensitivity,R3,public,own_cost_slope,false_pair,signal pair BC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,level,false_pair,signal pair BC,0,3,0.0,0.0,0.707598,,,
+sensitivity,R3,public,excess_price,excess_price_flag,all,0,9,0.0,0.0,0.336267,,,"E above the maximum of the nine main R0 runs: an R0-calibrated flag, not a finding of harm"
+sensitivity,R0_heldout,public,excess_price,excess_price_flag,all,0,6,0.0,0.0,0.459258,,,"E above the maximum of the nine main R0 runs: an R0-calibrated flag, not a finding of harm"
+sensitivity,R3,public,excess_price,above_benchmark,all,0,9,0.0,0.0,0.336267,,,E > 0: average price paid above the cost-matched competitive benchmark
+sensitivity,R0_heldout,public,excess_price,above_benchmark,all,0,6,0.0,0.0,0.459258,,,E > 0: average price paid above the cost-matched competitive benchmark
+sensitivity,R3,public,cross_cost_direction,reject_at_0.05,role signal_pair,1,18,0.055556,,,,,directions within a run are dependent; no interval
+sensitivity,R3,public,cross_cost_direction,reject_at_0.05,role other,5,36,0.138889,,,,,directions within a run are dependent; no interval
+sensitivity,R0_heldout,public,cross_cost_direction,reject_at_0.05,role none,2,36,0.055556,,,,,directions within a run are dependent; no interval

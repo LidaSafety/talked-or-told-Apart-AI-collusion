@@ -1,0 +1,110 @@
+{
+  "thresholds": {
+    "own_cost_gap": 0.16817426463279572,
+    "own_cost_slope_gap": 0.1290494971619761,
+    "level_gap": 0.23076923076923084,
+    "excess_price": -0.3769230769230769
+  },
+  "runs": [
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r010",
+      "seed": 10,
+      "status_ok": false,
+      "own_cost_gap": 0.14887582126509757,
+      "own_cost_slope_gap": 0.030262784689801037,
+      "level_gap": 0.06923076923076898,
+      "excess_price": -0.3769230769230769
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r011",
+      "seed": 11,
+      "status_ok": false,
+      "own_cost_gap": 0.16817426463279572,
+      "own_cost_slope_gap": 0.07954169253965848,
+      "level_gap": 0.06153846153846221,
+      "excess_price": -0.5769230769230769
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r012",
+      "seed": 12,
+      "status_ok": false,
+      "own_cost_gap": 0.1171284272874713,
+      "own_cost_slope_gap": 0.0516749969322412,
+      "level_gap": 0.1769230769230763,
+      "excess_price": -0.7076923076923077
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r013",
+      "seed": 13,
+      "status_ok": false,
+      "own_cost_gap": 0.015118795232338611,
+      "own_cost_slope_gap": 0.12338031085176049,
+      "level_gap": 0.23076923076923084,
+      "excess_price": -0.5307692307692308
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r014",
+      "seed": 14,
+      "status_ok": false,
+      "own_cost_gap": 0.01992085699528623,
+      "own_cost_slope_gap": 0.10165079028897661,
+      "level_gap": 0.22307692307692317,
+      "excess_price": -0.6615384615384615
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r015",
+      "seed": 15,
+      "status_ok": false,
+      "own_cost_gap": 0.10639739715301078,
+      "own_cost_slope_gap": 0.1290494971619761,
+      "level_gap": 0.053846153846153655,
+      "excess_price": -0.7769230769230769
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r016",
+      "seed": 16,
+      "status_ok": false,
+      "own_cost_gap": 0.04400997986686761,
+      "own_cost_slope_gap": 0.041998279524535054,
+      "level_gap": 0.2153846153846155,
+      "excess_price": -0.5153846153846153
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r017",
+      "seed": 17,
+      "status_ok": false,
+      "own_cost_gap": 0.03220906262783152,
+      "own_cost_slope_gap": 0.08187102438392657,
+      "level_gap": 0.10769230769230731,
+      "excess_price": -0.5461538461538461
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r018",
+      "seed": 18,
+      "status_ok": false,
+      "own_cost_gap": 0.020744164695407408,
+      "own_cost_slope_gap": 0.03618719537214077,
+      "level_gap": 0.06153846153846132,
+      "excess_price": -0.7153846153846154
+    }
+  ],
+  "model": "gpt-oss-20b-8k",
+  "source": "results/sprint_runs/main/no_talk_R0_no_talk_gpt-oss-20b-8k.jsonl",
+  "source_sha256": "63d79d92ad68692cc95f8610d73f775376fae54751d5434b1a0fdb98102e637e",
+  "git_commit": "b3ef3c9ce3e83210e317d6ac6630687d5debbc41",
+  "created_utc": "2026-10-25T00:20:42.855073+00:00",
+  "bins": {
+    "bid": [
+      4,
+      8
+    ],
+    "cost": [
+      3
+    ],
+    "state": [
+      3
+    ]
+  },
+  "burn_in": 20,
+  "rule": "flag a run when its value exceeds the threshold (maximum over the nine R0 runs)"
+}

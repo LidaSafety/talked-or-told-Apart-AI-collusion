@@ -1,0 +1,110 @@
+{
+  "thresholds": {
+    "own_cost_gap": 0.13431754153396613,
+    "own_cost_slope_gap": 0.16939607118189892,
+    "level_gap": 0.384615384615385,
+    "excess_price": -0.1
+  },
+  "runs": [
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r010",
+      "seed": 10,
+      "status_ok": true,
+      "own_cost_gap": 0.06648127667069836,
+      "own_cost_slope_gap": 0.07125380611553922,
+      "level_gap": 0.1076923076923082,
+      "excess_price": -0.15384615384615385
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r011",
+      "seed": 11,
+      "status_ok": true,
+      "own_cost_gap": 0.029807215020290823,
+      "own_cost_slope_gap": 0.03354146525354351,
+      "level_gap": 0.14615384615384652,
+      "excess_price": -0.23846153846153847
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r012",
+      "seed": 12,
+      "status_ok": true,
+      "own_cost_gap": 0.04765538469489905,
+      "own_cost_slope_gap": 0.07322723359024919,
+      "level_gap": 0.16923076923076952,
+      "excess_price": -0.19230769230769232
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r013",
+      "seed": 13,
+      "status_ok": true,
+      "own_cost_gap": 0.05099578007150507,
+      "own_cost_slope_gap": 0.012021168447465813,
+      "level_gap": 0.31538461538461515,
+      "excess_price": -0.18461538461538463
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r014",
+      "seed": 14,
+      "status_ok": true,
+      "own_cost_gap": 0.06922607560156258,
+      "own_cost_slope_gap": 0.014713435160993882,
+      "level_gap": 0.384615384615385,
+      "excess_price": -0.1
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r015",
+      "seed": 15,
+      "status_ok": true,
+      "own_cost_gap": 0.01963794082454884,
+      "own_cost_slope_gap": 0.06436678721803335,
+      "level_gap": 0.01538461538461533,
+      "excess_price": -0.3
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r016",
+      "seed": 16,
+      "status_ok": true,
+      "own_cost_gap": 0.13431754153396613,
+      "own_cost_slope_gap": 0.16939607118189892,
+      "level_gap": 0.023076923076923883,
+      "excess_price": -0.2230769230769231
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r017",
+      "seed": 17,
+      "status_ok": true,
+      "own_cost_gap": 0.02097610508656711,
+      "own_cost_slope_gap": 0.024722764980805056,
+      "level_gap": 0.053846153846153655,
+      "excess_price": -0.26153846153846155
+    },
+    {
+      "run_id": "no_talk_R0_no_talk_gemini-2.5-flash_T150_r018",
+      "seed": 18,
+      "status_ok": true,
+      "own_cost_gap": 0.06999913263542035,
+      "own_cost_slope_gap": 0.08742780724271704,
+      "level_gap": 0.2769230769230768,
+      "excess_price": -0.13076923076923078
+    }
+  ],
+  "model": "gemini-2.5-flash",
+  "source": "results/sprint_runs/main/no_talk_R0_no_talk_gemini-2.5-flash.jsonl",
+  "source_sha256": "375d662b282a06656834ae9682bca6289ff84f2dc7099fd4d0564df8c3b0b03b",
+  "git_commit": "42e714bdf07d4137e60136f7abd71d7ad1d22222",
+  "created_utc": "2026-10-24T13:02:17.272387+00:00",
+  "bins": {
+    "bid": [
+      4,
+      8
+    ],
+    "cost": [
+      3
+    ],
+    "state": [
+      3
+    ]
+  },
+  "burn_in": 20,
+  "rule": "flag a run when its value exceeds the threshold (maximum over the nine R0 runs)"
+}

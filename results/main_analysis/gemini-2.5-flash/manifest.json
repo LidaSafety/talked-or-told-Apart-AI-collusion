@@ -1,0 +1,85 @@
+{
+  "model": "gemini-2.5-flash",
+  "created_utc": "2026-10-26T09:00:58.832697+00:00",
+  "git_commit": "e1737b136166a518b94141b71e0bf75784f38dc2",
+  "sprint_code_uncommitted_changes": false,
+  "r1_without_coding": false,
+  "settings": {
+    "T": 150,
+    "burn_in": 20,
+    "netinf_alpha_bits": 0.0489,
+    "netinf_alpha_source": "scripted calibration",
+    "bins": {
+      "bid": [
+        4,
+        8
+      ],
+      "cost": [
+        3
+      ],
+      "state": [
+        3
+      ]
+    },
+    "cross_cost": {
+      "null": "crt",
+      "K": 199,
+      "alpha_per_direction": 0.016666666666666666
+    }
+  },
+  "calibration": {
+    "path": "results/calibration/gemini-2.5-flash.json",
+    "commit": "e1737b136166a518b94141b71e0bf75784f38dc2 2026-10-26T05:00:27-04:00",
+    "thresholds": {
+      "own_cost_gap": 0.13431754153396613,
+      "own_cost_slope_gap": 0.16939607118189892,
+      "level_gap": 0.384615384615385,
+      "excess_price": -0.1
+    }
+  },
+  "r1": {
+    "analysed": true,
+    "reason": "coding form committed and complete",
+    "coding_form_commit": "e1737b136166a518b94141b71e0bf75784f38dc2 2026-10-26T05:00:27-04:00"
+  },
+  "sources": {
+    "R0_main": {
+      "path": "results/sprint_runs/main/no_talk_R0_no_talk_gemini-2.5-flash.jsonl",
+      "sha256": "375d662b282a06656834ae9682bca6289ff84f2dc7099fd4d0564df8c3b0b03b"
+    },
+    "R1": {
+      "path": "results/sprint_runs/main/talk_R1_pair_talk_gemini-2.5-flash.jsonl",
+      "sha256": "15a58ac6c7c136cd4b5a381cfd25a400ab7affd3bbbb3850985099ec76a31756"
+    },
+    "R3": {
+      "path": "results/sprint_runs/main/no_talk_R3_shared_information_gemini-2.5-flash.jsonl",
+      "sha256": "dc5cefe8a264dcf1ba52974b0bd9a07f15f0f237b56ff8414ae6b4a11a4488df"
+    },
+    "R0_heldout": {
+      "path": "results/sprint_runs/heldout/no_talk_R0_no_talk_gemini-2.5-flash.jsonl",
+      "sha256": "b9cf839129bca75ffc54709745dec400d2e9a0f6aec51fed842f338dc0ad70ea"
+    },
+    "R4": {
+      "path": "results/sprint_runs/main/no_talk_R4_instructed_pair_gemini-2.5-flash.jsonl",
+      "sha256": "e119ada9273afa5ee4ae426ce4a8cf81e92c6e3ab1c8a8f3beae104f781f676b"
+    },
+    "R5": {
+      "path": "results/sprint_runs/main/talk_R5_instructed_talk_gemini-2.5-flash.jsonl",
+      "sha256": "1a4447512d33fecca22de31c5dba0c144f2e54fda67cc2fb06554920faa0a5df"
+    }
+  },
+  "missing_logs": [],
+  "excluded_logs": {
+    "R3": {
+      "path": "results/sprint_runs/excluded_outage/main/no_talk_R3_shared_information_gemini-2.5-flash.jsonl",
+      "reason": "network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",
+      "sha256": "b0ff205ecc3b6080b80badf83146866bc8516f7743d1d49fcce4337df6e7b4e6"
+    },
+    "R0_heldout": {
+      "path": "results/sprint_runs/excluded_outage/heldout/no_talk_R0_no_talk_gemini-2.5-flash.jsonl",
+      "reason": "network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",
+      "sha256": "b5cbc20a9021ecd837018e198eaeda401b1c5ee7ac44e6cd8ddc1d66ca44d978"
+    }
+  },
+  "sensitivity": "sensitivity_outage_originals/"
+}

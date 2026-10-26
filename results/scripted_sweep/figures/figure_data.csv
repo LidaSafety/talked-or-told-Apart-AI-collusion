@@ -1,0 +1,125 @@
+figure,panel,detector,x,cell,T,p,view,measure,n,rate,ci_low,ci_high
+sample_efficiency,Designated winner,Net influence (bid dependence),60,S3a,60,0.6,public,netinf_correct,100,0.65,0.5482,0.7427
+sample_efficiency,Designated winner,Net influence (bid dependence),120,S3a,120,0.6,public,netinf_correct,100,0.98,0.9296,0.9976
+sample_efficiency,Designated winner,Net influence (bid dependence),150,S3a,150,0.6,public,netinf_correct,100,0.98,0.9296,0.9976
+sample_efficiency,Designated winner,Net influence (bid dependence),240,S3a,240,0.6,public,netinf_correct,100,1.0,0.9638,1.0
+sample_efficiency,Designated winner,Cross-cost information,60,S3a,60,0.6,public,cross_correct,100,0.01,0.0003,0.0545
+sample_efficiency,Designated winner,Cross-cost information,120,S3a,120,0.6,public,cross_correct,100,0.44,0.3408,0.5428
+sample_efficiency,Designated winner,Cross-cost information,150,S3a,150,0.6,public,cross_correct,100,0.68,0.5792,0.7698
+sample_efficiency,Designated winner,Cross-cost information,240,S3a,240,0.6,public,cross_correct,100,0.96,0.9007,0.989
+sample_efficiency,Designated winner,Own-cost rule,60,S3a,60,0.6,public,own_correct,100,0.148,0.0865,0.2353
+sample_efficiency,Designated winner,Own-cost rule,120,S3a,120,0.6,public,own_correct,100,0.1487,0.0865,0.2353
+sample_efficiency,Designated winner,Own-cost rule,150,S3a,150,0.6,public,own_correct,100,0.2176,0.1433,0.3139
+sample_efficiency,Designated winner,Own-cost rule,240,S3a,240,0.6,public,own_correct,100,0.2917,0.2036,0.3893
+sample_efficiency,Designated winner,Price level (baseline),60,S3a,60,0.6,public,level_correct,100,0.9137,0.836,0.958
+sample_efficiency,Designated winner,Price level (baseline),120,S3a,120,0.6,public,level_correct,100,0.9919,0.9455,0.9997
+sample_efficiency,Designated winner,Price level (baseline),150,S3a,150,0.6,public,level_correct,100,0.998,0.9638,1.0
+sample_efficiency,Designated winner,Price level (baseline),240,S3a,240,0.6,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Net influence (bid dependence),60,S3b,60,0.6,public,netinf_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Net influence (bid dependence),120,S3b,120,0.6,public,netinf_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Net influence (bid dependence),150,S3b,150,0.6,public,netinf_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Net influence (bid dependence),240,S3b,240,0.6,public,netinf_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Cross-cost information,60,S3b,60,0.6,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Shared varying target,Cross-cost information,120,S3b,120,0.6,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Shared varying target,Cross-cost information,150,S3b,150,0.6,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Shared varying target,Cross-cost information,240,S3b,240,0.6,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Shared varying target,Own-cost rule,60,S3b,60,0.6,public,own_correct,100,0.614,0.5073,0.706
+sample_efficiency,Shared varying target,Own-cost rule,120,S3b,120,0.6,public,own_correct,100,0.9299,0.8611,0.9714
+sample_efficiency,Shared varying target,Own-cost rule,150,S3b,150,0.6,public,own_correct,100,0.9726,0.9148,0.9938
+sample_efficiency,Shared varying target,Own-cost rule,240,S3b,240,0.6,public,own_correct,100,0.9994,0.9638,1.0
+sample_efficiency,Shared varying target,Price level (baseline),60,S3b,60,0.6,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Price level (baseline),120,S3b,120,0.6,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Price level (baseline),150,S3b,150,0.6,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Shared varying target,Price level (baseline),240,S3b,240,0.6,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Constant pair quote,Net influence (bid dependence),60,S4,60,1,public,netinf_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Net influence (bid dependence),120,S4,120,1,public,netinf_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Net influence (bid dependence),150,S4,150,1,public,netinf_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Net influence (bid dependence),240,S4,240,1,public,netinf_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Cross-cost information,60,S4,60,1,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Cross-cost information,120,S4,120,1,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Cross-cost information,150,S4,150,1,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Cross-cost information,240,S4,240,1,public,cross_correct,100,0.0,0.0,0.0362
+sample_efficiency,Constant pair quote,Own-cost rule,60,S4,60,1,public,own_correct,100,0.9595,0.9007,0.989
+sample_efficiency,Constant pair quote,Own-cost rule,120,S4,120,1,public,own_correct,100,1.0,0.9638,1.0
+sample_efficiency,Constant pair quote,Own-cost rule,150,S4,150,1,public,own_correct,100,1.0,0.9638,1.0
+sample_efficiency,Constant pair quote,Own-cost rule,240,S4,240,1,public,own_correct,100,1.0,0.9638,1.0
+sample_efficiency,Constant pair quote,Price level (baseline),60,S4,60,1,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Constant pair quote,Price level (baseline),120,S4,120,1,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Constant pair quote,Price level (baseline),150,S4,150,1,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,Constant pair quote,Price level (baseline),240,S4,240,1,public,level_correct,100,1.0,0.9638,1.0
+sample_efficiency,No coordination,Net influence (bid dependence),60,S0,60,1,public,netinf_false_pair,300,0.0167,0.0054,0.0385
+sample_efficiency,No coordination,Net influence (bid dependence),120,S0,120,1,public,netinf_false_pair,300,0.0767,0.0492,0.1128
+sample_efficiency,No coordination,Net influence (bid dependence),150,S0,150,1,public,netinf_false_pair,300,0.0567,0.0334,0.0892
+sample_efficiency,No coordination,Net influence (bid dependence),240,S0,240,1,public,netinf_false_pair,300,0.0633,0.0386,0.0971
+sample_efficiency,No coordination,Cross-cost information,60,S0,60,1,public,cross_false_pair,300,0.0,0.0,0.0122
+sample_efficiency,No coordination,Cross-cost information,120,S0,120,1,public,cross_false_pair,300,0.0,0.0,0.0122
+sample_efficiency,No coordination,Cross-cost information,150,S0,150,1,public,cross_false_pair,300,0.0033,0.0001,0.0184
+sample_efficiency,No coordination,Cross-cost information,240,S0,240,1,public,cross_false_pair,300,0.0,0.0,0.0122
+sample_efficiency,No coordination,Own-cost rule,60,S0,60,1,public,own_false_pair,300,0.1048,0.0713,0.1435
+sample_efficiency,No coordination,Own-cost rule,120,S0,120,1,public,own_false_pair,300,0.1033,0.0713,0.1435
+sample_efficiency,No coordination,Own-cost rule,150,S0,150,1,public,own_false_pair,300,0.0939,0.0629,0.1321
+sample_efficiency,No coordination,Own-cost rule,240,S0,240,1,public,own_false_pair,300,0.0941,0.0629,0.1321
+sample_efficiency,No coordination,Price level (baseline),60,S0,60,1,public,level_false_pair,300,0.1268,0.0912,0.1697
+sample_efficiency,No coordination,Price level (baseline),120,S0,120,1,public,level_false_pair,300,0.1074,0.0741,0.1472
+sample_efficiency,No coordination,Price level (baseline),150,S0,150,1,public,level_false_pair,300,0.0995,0.0685,0.1397
+sample_efficiency,No coordination,Price level (baseline),240,S0,240,1,public,level_false_pair,300,0.1191,0.0855,0.1622
+coordination_strength,Designated winner,Net influence (bid dependence),0.2,S3a,150,0.2,public,netinf_correct,100,0.23,0.1517,0.3249
+coordination_strength,Designated winner,Net influence (bid dependence),0.4,S3a,150,0.4,public,netinf_correct,100,0.74,0.6427,0.8226
+coordination_strength,Designated winner,Net influence (bid dependence),0.6,S3a,150,0.6,public,netinf_correct,100,0.98,0.9296,0.9976
+coordination_strength,Designated winner,Net influence (bid dependence),0.8,S3a,150,0.8,public,netinf_correct,100,1.0,0.9638,1.0
+coordination_strength,Designated winner,Net influence (bid dependence),1.0,S3a,150,1,public,netinf_correct,100,1.0,0.9638,1.0
+coordination_strength,Designated winner,Cross-cost information,0.2,S3a,150,0.2,public,cross_correct,100,0.01,0.0003,0.0545
+coordination_strength,Designated winner,Cross-cost information,0.4,S3a,150,0.4,public,cross_correct,100,0.12,0.0636,0.2002
+coordination_strength,Designated winner,Cross-cost information,0.6,S3a,150,0.6,public,cross_correct,100,0.68,0.5792,0.7698
+coordination_strength,Designated winner,Cross-cost information,0.8,S3a,150,0.8,public,cross_correct,100,0.97,0.9148,0.9938
+coordination_strength,Designated winner,Cross-cost information,1.0,S3a,150,1,public,cross_correct,100,1.0,0.9638,1.0
+coordination_strength,Designated winner,Own-cost rule,0.2,S3a,150,0.2,public,own_correct,100,0.1017,0.049,0.1762
+coordination_strength,Designated winner,Own-cost rule,0.4,S3a,150,0.4,public,own_correct,100,0.0993,0.049,0.1762
+coordination_strength,Designated winner,Own-cost rule,0.6,S3a,150,0.6,public,own_correct,100,0.2176,0.1433,0.3139
+coordination_strength,Designated winner,Own-cost rule,0.8,S3a,150,0.8,public,own_correct,100,0.3131,0.2213,0.4103
+coordination_strength,Designated winner,Own-cost rule,1.0,S3a,150,1,public,own_correct,100,0.3523,0.2573,0.4518
+coordination_strength,Designated winner,Price level (baseline),0.2,S3a,150,0.2,public,level_correct,100,0.6047,0.4972,0.6967
+coordination_strength,Designated winner,Price level (baseline),0.4,S3a,150,0.4,public,level_correct,100,0.9749,0.9148,0.9938
+coordination_strength,Designated winner,Price level (baseline),0.6,S3a,150,0.6,public,level_correct,100,0.998,0.9638,1.0
+coordination_strength,Designated winner,Price level (baseline),0.8,S3a,150,0.8,public,level_correct,100,1.0,0.9638,1.0
+coordination_strength,Designated winner,Price level (baseline),1.0,S3a,150,1,public,level_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Net influence (bid dependence),0.2,S3b,150,0.2,public,netinf_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Net influence (bid dependence),0.4,S3b,150,0.4,public,netinf_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Net influence (bid dependence),0.6,S3b,150,0.6,public,netinf_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Net influence (bid dependence),0.8,S3b,150,0.8,public,netinf_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Net influence (bid dependence),1.0,S3b,150,1,public,netinf_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Cross-cost information,0.2,S3b,150,0.2,public,cross_correct,100,0.0,0.0,0.0362
+coordination_strength,Shared varying target,Cross-cost information,0.4,S3b,150,0.4,public,cross_correct,100,0.0,0.0,0.0362
+coordination_strength,Shared varying target,Cross-cost information,0.6,S3b,150,0.6,public,cross_correct,100,0.0,0.0,0.0362
+coordination_strength,Shared varying target,Cross-cost information,0.8,S3b,150,0.8,public,cross_correct,100,0.0,0.0,0.0362
+coordination_strength,Shared varying target,Cross-cost information,1.0,S3b,150,1,public,cross_correct,100,0.0,0.0,0.0362
+coordination_strength,Shared varying target,Own-cost rule,0.2,S3b,150,0.2,public,own_correct,100,0.3784,0.2848,0.4825
+coordination_strength,Shared varying target,Own-cost rule,0.4,S3b,150,0.4,public,own_correct,100,0.774,0.6751,0.8483
+coordination_strength,Shared varying target,Own-cost rule,0.6,S3b,150,0.6,public,own_correct,100,0.9726,0.9148,0.9938
+coordination_strength,Shared varying target,Own-cost rule,0.8,S3b,150,0.8,public,own_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Own-cost rule,1.0,S3b,150,1,public,own_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Price level (baseline),0.2,S3b,150,0.2,public,level_correct,100,0.9828,0.9296,0.9976
+coordination_strength,Shared varying target,Price level (baseline),0.4,S3b,150,0.4,public,level_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Price level (baseline),0.6,S3b,150,0.6,public,level_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Price level (baseline),0.8,S3b,150,0.8,public,level_correct,100,1.0,0.9638,1.0
+coordination_strength,Shared varying target,Price level (baseline),1.0,S3b,150,1,public,level_correct,100,1.0,0.9638,1.0
+shared_signal,Net influence,"Net influence, public state (previous price)",60,S2,60,1,public,netinf_false_pair,200,0.105,0.0662,0.156
+shared_signal,Net influence,"Net influence, public state (previous price)",120,S2,120,1,public,netinf_false_pair,200,0.39,0.322,0.4613
+shared_signal,Net influence,"Net influence, public state (previous price)",150,S2,150,1,public,netinf_false_pair,200,0.485,0.4139,0.5565
+shared_signal,Net influence,"Net influence, public state (previous price)",240,S2,240,1,public,netinf_false_pair,200,0.695,0.6261,0.758
+shared_signal,Net influence,"Net influence, signal added to the auditor's state",60,S2,60,1,signal,netinf_false_pair,200,0.08,0.0464,0.1267
+shared_signal,Net influence,"Net influence, signal added to the auditor's state",120,S2,120,1,signal,netinf_false_pair,200,0.14,0.0951,0.1959
+shared_signal,Net influence,"Net influence, signal added to the auditor's state",150,S2,150,1,signal,netinf_false_pair,200,0.15,0.1035,0.2072
+shared_signal,Net influence,"Net influence, signal added to the auditor's state",240,S2,240,1,signal,netinf_false_pair,200,0.18,0.1294,0.2404
+shared_signal,Cost- and price-based rules,Cross-cost information,60,S2,60,1,public,cross_false_pair,200,0.0,0.0,0.0183
+shared_signal,Cost- and price-based rules,Cross-cost information,120,S2,120,1,public,cross_false_pair,200,0.0,0.0,0.0183
+shared_signal,Cost- and price-based rules,Cross-cost information,150,S2,150,1,public,cross_false_pair,200,0.0,0.0,0.0183
+shared_signal,Cost- and price-based rules,Cross-cost information,240,S2,240,1,public,cross_false_pair,200,0.0,0.0,0.0183
+shared_signal,Cost- and price-based rules,Own-cost rule,60,S2,60,1,public,own_false_pair,200,0.3802,0.3125,0.4511
+shared_signal,Cost- and price-based rules,Own-cost rule,120,S2,120,1,public,own_false_pair,200,0.7053,0.6366,0.7672
+shared_signal,Cost- and price-based rules,Own-cost rule,150,S2,150,1,public,own_false_pair,200,0.7902,0.7269,0.8443
+shared_signal,Cost- and price-based rules,Own-cost rule,240,S2,240,1,public,own_false_pair,200,0.9473,0.9037,0.9722
+shared_signal,Cost- and price-based rules,Price level (baseline),60,S2,60,1,public,level_false_pair,200,0.5894,0.5184,0.6589
+shared_signal,Cost- and price-based rules,Price level (baseline),120,S2,120,1,public,level_false_pair,200,0.8635,0.8097,0.9091
+shared_signal,Cost- and price-based rules,Price level (baseline),150,S2,150,1,public,level_false_pair,200,0.9313,0.8853,0.9612
+shared_signal,Cost- and price-based rules,Price level (baseline),240,S2,240,1,public,level_false_pair,200,0.9951,0.9725,0.9999

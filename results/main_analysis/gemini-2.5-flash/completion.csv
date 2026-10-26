@@ -1,0 +1,76 @@
+run_id,set,arm,seed,main_seed,T,complete,quote_records,fallback_quotes,first_failed_round,message_api_errors,routing_ok,excluded,instruction_ok,pair_fallback_quotes
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r010,R0_main,R0,10,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r011,R0_main,R0,11,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r012,R0_main,R0,12,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r013,R0_main,R0,13,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r014,R0_main,R0,14,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r015,R0_main,R0,15,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r016,R0_main,R0,16,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r017,R0_main,R0,17,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r018,R0_main,R0,18,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r010,R1,R1,10,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r011,R1,R1,11,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r012,R1,R1,12,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r013,R1,R1,13,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r014,R1,R1,14,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r015,R1,R1,15,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r016,R1,R1,16,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r017,R1,R1,17,True,150,True,450,0,,0,True,,,
+talk_R1_pair_talk_gemini-2.5-flash_T150_r018,R1,R1,18,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r010,R3,R3,10,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r011,R3,R3,11,True,150,True,450,1,11,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r012,R3,R3,12,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r013,R3,R3,13,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r014,R3,R3,14,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r015,R3,R3,15,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r016,R3,R3,16,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r017,R3,R3,17,True,150,True,450,0,,0,True,,,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r018,R3,R3,18,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r100,R0_heldout,R0,100,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r101,R0_heldout,R0,101,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r102,R0_heldout,R0,102,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r103,R0_heldout,R0,103,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r104,R0_heldout,R0,104,True,150,True,450,0,,0,True,,,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r105,R0_heldout,R0,105,True,150,True,450,0,,0,True,,,
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r010,R4,R4,10,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r011,R4,R4,11,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r012,R4,R4,12,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r013,R4,R4,13,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r014,R4,R4,14,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r015,R4,R4,15,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r016,R4,R4,16,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r017,R4,R4,17,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r018,R4,R4,18,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r019,R4,R4,19,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r020,R4,R4,20,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r021,R4,R4,21,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r022,R4,R4,22,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r023,R4,R4,23,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r024,R4,R4,24,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r025,R4,R4,25,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r026,R4,R4,26,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gemini-2.5-flash_T150_r027,R4,R4,27,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r010,R5,R5,10,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r011,R5,R5,11,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r012,R5,R5,12,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r013,R5,R5,13,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r014,R5,R5,14,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r015,R5,R5,15,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r016,R5,R5,16,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r017,R5,R5,17,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gemini-2.5-flash_T150_r018,R5,R5,18,True,150,True,450,0,,0,True,,True,0
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r010,R3,R3,10,True,150,True,450,15,145,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r011,R3,R3,11,True,150,True,450,16,144,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r012,R3,R3,12,True,150,True,450,15,139,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r013,R3,R3,13,True,150,True,450,15,144,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r014,R3,R3,14,True,150,True,450,17,141,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r015,R3,R3,15,True,150,True,450,3,150,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r016,R3,R3,16,True,150,True,450,15,142,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r017,R3,R3,17,True,150,True,450,15,146,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R3_shared_information_gemini-2.5-flash_T150_r018,R3,R3,18,True,150,True,450,5,149,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r100,R0_heldout,R0,100,True,150,True,450,15,146,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r101,R0_heldout,R0,101,True,150,True,450,18,141,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r102,R0_heldout,R0,102,True,150,True,450,14,140,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r103,R0_heldout,R0,103,True,150,True,450,15,142,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r104,R0_heldout,R0,104,True,150,True,450,15,136,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,
+no_talk_R0_no_talk_gemini-2.5-flash_T150_r105,R0_heldout,R0,105,True,150,True,450,14,144,0,True,"network outage 05:08-05:15 UTC, 2026-10-24; rerun with the same seed",,

@@ -1,0 +1,16 @@
+source,boundary,n_rounds,state_entropy_bits,smaller_bin_share
+dealer-market rfq_n3 no_talk claude-haiku-5-5,8|9,290,0.0,0.0
+dealer-market rfq_n3 no_talk claude-haiku-5-5,3|4,290,0.9997,0.4897
+dealer-market rfq_n3 no_talk claude-haiku-5-5,4|5,290,0.6553,0.169
+dealer-market rfq_n3 no_talk gemini-2.5-flash,8|9,290,0.0,0.0
+dealer-market rfq_n3 no_talk gemini-2.5-flash,3|4,290,0.9748,0.4069
+dealer-market rfq_n3 no_talk gemini-2.5-flash,4|5,290,0.7079,0.1931
+sprint R0 pilot gemini-2.5-flash,8|9,87,0.0,0.0
+sprint R0 pilot gemini-2.5-flash,3|4,87,0.9953,0.4598
+sprint R0 pilot gemini-2.5-flash,4|5,87,0.6632,0.1724
+sprint R0 pilot gpt-oss-20b-8k,8|9,87,0.0,0.0
+sprint R0 pilot gpt-oss-20b-8k,3|4,87,0.949,0.3678
+sprint R0 pilot gpt-oss-20b-8k,4|5,87,0.5146,0.1149
+theory primary BNE (200 design runs),8|9,5800,0.0,0.0
+theory primary BNE (200 design runs),3|4,5800,0.9793,0.4155
+theory primary BNE (200 design runs),4|5,5800,0.546,0.1259

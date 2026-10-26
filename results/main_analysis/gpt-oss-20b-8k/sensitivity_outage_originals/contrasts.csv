@@ -1,0 +1,8 @@
+analysis,measure,label_a,label_b,n_a,n_b,mean_a,mean_b,diff,p_value,test
+same_seed_R1_minus_R0,excess_price,R1,"R0_main, same seed",9,9,-0.574134,-0.609427,0.035293,0.632812,"exact sign flip over seeds, two-sided"
+same_seed_R1_minus_R0,price_paid,R1,"R0_main, same seed",9,9,3.144639,3.109346,0.035293,0.632812,"exact sign flip over seeds, two-sided"
+same_seed_R1_minus_R0,efficiency,R1,"R0_main, same seed",9,9,0.851916,0.95334,-0.101424,0.003906,"exact sign flip over seeds, two-sided"
+same_seed_R1_minus_R0,profit_pair,R1,"R0_main, same seed",9,9,2.785633,6.615124,-3.829491,0.003906,"exact sign flip over seeds, two-sided"
+same_seed_R1_minus_R0,profit_outsider,R1,"R0_main, same seed",9,9,3.264297,2.904876,0.35942,0.203125,"exact sign flip over seeds, two-sided"
+same_seed_R1_minus_R0,excess_outsider_cost_high,R1,"R0_main, same seed",9,9,-0.451571,-0.554289,0.102718,0.207031,"exact sign flip over seeds, two-sided"
+same_seed_R1_minus_R0,excess_outsider_cost_low,R1,"R0_main, same seed",9,9,-0.695805,-0.663816,-0.031988,0.746094,"exact sign flip over seeds, two-sided"

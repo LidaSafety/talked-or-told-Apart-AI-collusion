@@ -1,0 +1,75 @@
+{
+  "model": "gpt-oss-20b-8k",
+  "created_utc": "2026-10-26T09:01:07.791005+00:00",
+  "git_commit": "e1737b136166a518b94141b71e0bf75784f38dc2",
+  "sprint_code_uncommitted_changes": false,
+  "r1_without_coding": true,
+  "settings": {
+    "T": 150,
+    "burn_in": 20,
+    "netinf_alpha_bits": 0.048187588529283065,
+    "netinf_alpha_source": "results/calibration/netinf_gpt-oss-20b-8k.json @ e1737b136166a518b94141b71e0bf75784f38dc2 2026-10-26T05:00:27-04:00",
+    "bins": {
+      "bid": [
+        4,
+        8
+      ],
+      "cost": [
+        3
+      ],
+      "state": [
+        3
+      ]
+    },
+    "cross_cost": {
+      "null": "crt",
+      "K": 199,
+      "alpha_per_direction": 0.016666666666666666
+    }
+  },
+  "calibration": {
+    "path": "results/calibration/gpt-oss-20b-8k.json",
+    "commit": "e1737b136166a518b94141b71e0bf75784f38dc2 2026-10-26T05:00:27-04:00",
+    "thresholds": {
+      "own_cost_gap": 0.16817426463279572,
+      "own_cost_slope_gap": 0.1290494971619761,
+      "level_gap": 0.23076923076923084,
+      "excess_price": -0.3769230769230769
+    }
+  },
+  "r1": {
+    "analysed": true,
+    "reason": "R1 scored without message coding",
+    "coding_form_commit": null
+  },
+  "sources": {
+    "R0_main": {
+      "path": "results/sprint_runs/main/no_talk_R0_no_talk_gpt-oss-20b-8k.jsonl",
+      "sha256": "63d79d92ad68692cc95f8610d73f775376fae54751d5434b1a0fdb98102e637e"
+    },
+    "R1": {
+      "path": "results/sprint_runs/main/talk_R1_pair_talk_gpt-oss-20b-8k.jsonl",
+      "sha256": "6ed567a694294f7aafbbe6cb2134185df9a80c44f54cf40135a5f56c151ff9e4"
+    },
+    "R4": {
+      "path": "results/sprint_runs/main/no_talk_R4_instructed_pair_gpt-oss-20b-8k.jsonl",
+      "sha256": "3f2d59163ecfd51d5def815efa1769f96635f2f6e3d35c900366efb9da28b3a6"
+    },
+    "R5": {
+      "path": "results/sprint_runs/main/talk_R5_instructed_talk_gpt-oss-20b-8k.jsonl",
+      "sha256": "bf9b5a43c058811eacd7c02de27d0c524d52ba295c6c20cdc250b1347a4f3665"
+    }
+  },
+  "missing_logs": [
+    "R3",
+    "R0_heldout"
+  ],
+  "excluded_logs": {
+    "R1": {
+      "path": "results/sprint_runs/excluded_outage/main/talk_R1_pair_talk_gpt-oss-20b-8k.jsonl",
+      "reason": "model server stopped 03:48:48 UTC, 2026-10-25; kept out of the primary analysis",
+      "sha256": "6f209f036e7a18f4a1179b0921495ed343016cc57ddaa62078516f91d708b927"
+    }
+  },
+  "sensitivity": "sensitivity_outage_originals/"
+}

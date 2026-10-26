@@ -1,0 +1,7 @@
+measure,seeds,mean_R0_main,mean_R1,mean_R4,mean_R5,talk_effect,p_talk_effect,talk_effect_instructed,p_talk_effect_instructed,delta,p_delta,seeds_delta_negative,test
+price_paid,9,3.12906,3.078632,3.213675,4.790598,-0.050427,0.574219,1.576923,0.019531,1.62735,0.003906,0,"exact sign flip over seeds, two-sided"
+efficiency,9,0.95641,0.852991,0.909402,0.72735,-0.103419,0.003906,-0.182051,0.003906,-0.078632,0.097656,6,"exact sign flip over seeds, two-sided"
+profit_pair,9,6.736467,2.586895,5.588319,6.690883,-4.149573,0.003906,1.102564,0.53125,5.252137,0.015625,1,"exact sign flip over seeds, two-sided"
+profit_outsider,9,2.933048,2.769231,3.132479,12.935898,-0.163818,0.519531,9.803419,0.015625,9.967237,0.003906,0,"exact sign flip over seeds, two-sided"
+cmi_pair,9,0.039817,0.191987,0.033788,0.191058,0.15217,0.003906,0.157269,0.003906,0.0051,0.855469,5,"exact sign flip over seeds, two-sided"
+cross_cost_pair,9,0.006126,0.083346,0.002492,0.07177,0.077221,0.003906,0.069278,0.011719,-0.007942,0.789062,5,"exact sign flip over seeds, two-sided"

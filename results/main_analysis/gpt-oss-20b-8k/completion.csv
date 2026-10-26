@@ -1,0 +1,40 @@
+run_id,set,arm,seed,main_seed,T,complete,quote_records,fallback_quotes,first_failed_round,message_api_errors,routing_ok,excluded,instruction_ok,pair_fallback_quotes
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r010,R0_main,R0,10,True,150,True,450,3,40,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r011,R0_main,R0,11,True,150,True,450,1,76,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r012,R0_main,R0,12,True,150,True,450,2,73,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r013,R0_main,R0,13,True,150,True,450,2,45,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r014,R0_main,R0,14,True,150,True,450,4,1,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r015,R0_main,R0,15,True,150,True,450,2,52,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r016,R0_main,R0,16,True,150,True,450,5,2,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r017,R0_main,R0,17,True,150,True,450,3,28,0,True,,,
+no_talk_R0_no_talk_gpt-oss-20b-8k_T150_r018,R0_main,R0,18,True,150,True,450,2,106,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r010,R1,R1,10,True,150,True,450,3,6,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r011,R1,R1,11,True,150,True,450,4,50,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r012,R1,R1,12,True,150,True,450,2,20,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r013,R1,R1,13,True,150,True,450,3,38,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r014,R1,R1,14,True,150,True,450,2,32,1,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r015,R1,R1,15,True,150,True,450,3,2,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r016,R1,R1,16,True,150,True,450,2,40,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r017,R1,R1,17,True,150,True,450,4,49,0,True,,,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r018,R1,R1,18,True,150,True,450,1,28,0,True,,,
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r010,R4,R4,10,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r011,R4,R4,11,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r012,R4,R4,12,True,150,True,450,4,5,0,True,,True,4
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r013,R4,R4,13,True,150,True,450,3,60,0,True,,True,1
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r014,R4,R4,14,True,150,True,450,3,68,0,True,,True,3
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r015,R4,R4,15,True,150,True,450,1,141,0,True,,True,0
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r016,R4,R4,16,True,150,True,450,0,,0,True,,True,0
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r017,R4,R4,17,True,150,True,450,1,80,0,True,,True,1
+no_talk_R4_instructed_pair_gpt-oss-20b-8k_T150_r018,R4,R4,18,True,150,True,450,2,12,0,True,,True,0
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r010,R5,R5,10,True,150,True,450,3,52,0,True,,True,1
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r011,R5,R5,11,True,150,True,450,1,2,0,True,,True,0
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r012,R5,R5,12,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r013,R5,R5,13,True,150,True,450,1,129,0,True,,True,1
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r014,R5,R5,14,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r015,R5,R5,15,True,150,True,450,1,12,0,True,,True,1
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r016,R5,R5,16,True,150,True,450,1,63,0,True,,True,0
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r017,R5,R5,17,True,150,True,450,0,,0,True,,True,0
+talk_R5_instructed_talk_gpt-oss-20b-8k_T150_r018,R5,R5,18,True,150,True,450,0,,0,True,,True,0
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r016,R1,R1,16,True,150,True,450,173,13,114,True,"model server stopped 03:48:48 UTC, 2026-10-25; kept out of the primary analysis",,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r017,R1,R1,17,True,150,True,450,176,7,114,True,"model server stopped 03:48:48 UTC, 2026-10-25; kept out of the primary analysis",,
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r018,R1,R1,18,True,150,True,450,174,93,114,True,"model server stopped 03:48:48 UTC, 2026-10-25; kept out of the primary analysis",,

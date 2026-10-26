@@ -1,0 +1,4 @@
+run_id,set,arm,seed,main_seed,T,complete,quote_records,fallback_quotes,first_failed_round,message_api_errors,routing_ok,excluded
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r016,R1,R1,16,True,150,True,450,173,13,114,True,"model server stopped 03:48:48 UTC, 2026-10-25; kept out of the primary analysis"
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r017,R1,R1,17,True,150,True,450,176,7,114,True,"model server stopped 03:48:48 UTC, 2026-10-25; kept out of the primary analysis"
+talk_R1_pair_talk_gpt-oss-20b-8k_T150_r018,R1,R1,18,True,150,True,450,174,93,114,True,"model server stopped 03:48:48 UTC, 2026-10-25; kept out of the primary analysis"
